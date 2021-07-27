@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="judul">
+            <h3>Masukan Pesan Anda disini!!</h3>
+        </div>
+        <div class="contactus">
+            <form>                                          <!-- Buat Form -->
+                <input type="text" placeholder="Nama" id="inputName" class="field" required> <br>
+                <input type="email" placeholder="Email" id="inputEmail" class="field" required> <br>
+                <textarea name="pesan" rows="7" cols="45" placeholder="Tulis pesan anda disini" id="pesan" class="field area" required></textarea> <br>
+                <input class="btn" type="button" value="Kirim" id="btn">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

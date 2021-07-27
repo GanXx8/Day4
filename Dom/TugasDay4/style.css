@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("bck1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#jdl{
+    border-style: none;
+    width: 80%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(74, 135, 248);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-family: Tahoma;
+}
+
+#alogin p a{
+    text-decoration: none;
+    border-style: none;
+    font-family: tahoma;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(74, 135, 248);
+    padding: 3px 3px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+#alogin {
+   border-style: ridge;
+   width: 80%;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+#alogin p a:hover{
+    background-color: white;
+    color: rgb(28, 115, 197) ;
+}
+

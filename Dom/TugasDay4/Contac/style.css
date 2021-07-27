@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bck1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#judul{
+    margin-top: 10%;
+    border-style: ridge;
+    background: rgb(74, 135, 248);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-family: tahoma;
+}
+.contactus{
+    border-style: ridge;
+    background: rgb(74, 135, 248);
+    padding: 10px 10px;
+}

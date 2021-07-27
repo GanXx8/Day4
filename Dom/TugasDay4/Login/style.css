@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("bck1.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    font-family: tahoma;
+}
+#judul h3{
+   background-color: rgb(74, 135, 248);
+   color: white;
+   border-style: none;
+   padding: 10px 5px;
+   border-radius: 5px;
+}
+.halamanLogin{
+    color: white;
+    background-color: rgb(74, 135, 248); 
+    border-style: none;
+    padding: 20px 20px;
+    border-radius: 10px 10px;
+}
